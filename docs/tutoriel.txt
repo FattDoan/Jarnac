@@ -1,0 +1,76 @@
+   ___                ___  ___  ______ _   _   ___  _____ 
+  |_  |              |_  |/ _ \ | ___ \ \ | | / _ \/  __ \
+    | | ___ _   _      | / /_\ \| |_/ /  \| |/ /_\ \ /  \/
+    | |/ _ \ | | |     | |  _  ||    /| . ` ||  _  | |    
+/\__/ /  __/ |_| | /\__/ / | | || |\ \| |\  || | | | \__/\
+\____/ \___|\__,_| \____/\_| |_/\_| \_\_| \_/\_| |_/\____/
+                                                          
+Par Alexis et Thanh Phat
+                                                
+
+
+  ____  _   _ _____   ____  _   _       _ _____ _   _ 
+ | __ )| | | |_   _| |  _ \| | | |     | | ____| | | |
+ |  _ \| | | | | |   | | | | | | |  _  | |  _| | | | |
+ | |_) | |_| | | |   | |_| | |_| | | |_| | |___| |_| |
+ |____/ \___/  |_|   |____/ \___/   \___/|_____|\___/ 
+                                                      
+Obtenir le plus de points que son ou ses adversaires en constituant des mots de 3 à 9 lettres.
+Seuls sont autorisées les noms communs du dictionnaire (y compris féminin et pluriel) et les verbes à tous les temps, tous les modes et à toutes les personnes.
+Sont exclus les préfixes, les interjections, les sigles, les symboles, les mots composés et les noms propres.
+                                                                                   
+
+
+  ____  __        _           
+ |  _ \ \_\  __ _| | ___  ___ 
+ | |_) / _ \/ _` | |/ _ \/ __|
+ |  _ <  __/ (_| | |  __/\__ \
+ |_| \_\___|\__, |_|\___||___/
+            |___/             
+
+Chaque joueur utilise un tapis de jeu comportant 8 lignes de 9 cases.
+Un sac opaque contient 144 lettres ainsi distribuées :
+14 A, 4 B, 7 C, 5 D, 19 E, 2 F, 4 G, 2 H, 11 I, 1 J, 1 K, 6 L, 5 M, 9 N, 8 O, 4 P, 1 Q, 10 R, 7 S, 9 T, 8 U, 2 V, 1 W, 1 X, 1 Y et 2 Z
+Attention : avec cette composition, des mots comme "ANXIEUX" ne pourront pas être formés
+
+- Premier tour de la partie :
+Le premier joueur reçoit 6 lettres. Il cherche alors à composer un mot d'au moins 3 lettres qu'il place sur la première ligne de son tapis. S'il réussit, il peut tirer une lettre supplémentaire et, au choix, compléter son premier mot ou ouvrir la deuxième ligne. Il continue ainsi jusqu'à ne plus pouvoir modifier son tapis. 
+
+Au moment où le joueur passe son tour, l'adversaire peut déclarer Jarnac! s'il a trouvé un mot oublié par celui qui passe son tour. Dans ce cas, il prend le mot qu'il a trouvé et le place sur sa grille. Il peut éventuellement prendre ainsi plusieurs mots. Puis il joue normalement.
+Cette règle est l'explication du nom du jeu, et sa principale particularité, celle qui fait son intérêt.
+
+- Tours suivants :
+L'alternance de jeu se poursuit mais le joueur a le choix entre deux actions : tirer une nouvelle lettre ou échanger trois lettres non utilisées de son tapis.
+
+- Fin de partie :
+Le jeu s'arrête quand l'un des joueurs a atteint la dernière ligne de son tapis, ne trouve plus à compléter ses mots, et que son adversaire ne déclare pas Jarnac!
+
+On établit alors le score de chacun en attribuant à chaque mot une valeur égale au carré de son nombre de lettres, donc au maximum 81 points pour un mot de 9 lettres ; et 567 points (7 fois 81 points) plus les points du dernier mot posé de score maximal pour une grille pleine.
+
+
+
+  _____      _                 _                 
+ | ____|_  _| |_ ___ _ __  ___(_) ___  _ __  ___ 
+ |  _| \ \/ / __/ _ \ '_ \/ __| |/ _ \| '_ \/ __|
+ | |___ >  <| ||  __/ | | \__ \ | (_) | | | \__ \
+ |_____/_/\_\\__\___|_| |_|___/_|\___/|_| |_|___/
+
+Le joueur peut choisir :
+- la langues du dictionnaire parmi Français, Anglais, Allemand, Espagnol, Italien, Vietnamien
+- le nombre de lignes du plateau
+- la longueur maximale (ex: 6,15,... au lieu de 9) et minimale (ex: 4,5,... au lieu de 3) d'un mot
+- la possibilité d'annoncer Jarnac! (2 fois par défaut)
+- l'aide de l'IA (à consommer avec modération ! Conseil : on peut l'utiliser au début pour la prise en main)
+- de jouer contre l'IA
+- de jouer à plusieurs (multijoueur)
+
+                                             
+
+   ____ _   _ _   _____ _   _ ____  _____ 
+  / ___| | | | | |_   _| | | |  _ \| ____|
+ | |   | | | | |   | | | | | | |_) |  _|  
+ | |___| |_| | |___| | | |_| |  _ <| |___ 
+  \____|\___/|_____|_|  \___/|_| \_\_____|
+                                          
+L'intérêt du jeu et la source de nombreux rebondissements est la possibilité offerte à l'adversaire de s'emparer d'un mot que le joueur n'a pas vu quand il passe la main.
+Le « coup de Jarnac » fait référence à l'inattendue estocade au jarret portée par Jarnac lors d'un duel contre La Châtaigneraie, le 10 juillet 1547, sous le règne d’Henri II.
